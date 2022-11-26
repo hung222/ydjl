@@ -1,17 +1,2 @@
-web: gunicorn gdlnh.wsgi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+web: npm run start
+release: npm run migrate:deploy
